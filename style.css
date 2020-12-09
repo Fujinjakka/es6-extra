@@ -1,0 +1,43 @@
+body {
+  background-image: url("img/sfondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 20px;
+}
+
+p {
+  display: inline-block;
+  font-size: 15px;
+}
+
+#libreria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.libro {
+  height: 200px;
+  width: 150px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-image: url("img/copertina.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
